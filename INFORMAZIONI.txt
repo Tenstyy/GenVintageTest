@@ -1,0 +1,28 @@
+Tutte le immagini presenti sul sito web si trovano nella cartella "immagini"; possono essere sostituite a
+condizione che la nuova immagine aggiunta abbia lo stesso nome della precedente.
+
+=================================================
+
+Il file "prodotti.json" contiene un elenco dei prodotti visualizzati sul sito web. È possibile modificare
+l'elenco a piacimento e aggiungere altri prodotti. La cartella "foto" contiene le foto dei prodotti, da
+cui viene generato l'elenco.
+
+=================================================
+
+Esempio di un prodotto aggiunto correttamente all'elenco:
+	
+	{
+		"titolo": "inserisci qui il titolo del prodotto",
+		"descrizione": "inserisci qui la descrizione del prodotto",
+		"prezzo": 100,
+		"foto": "inserisci qui il nome e il tipo di foto",
+		"url": "incolla qui il link del prodotto Vinted"
+	}
+
+=================================================
+
+Il file "index.html" e la cartella "assets" non devono essere modificati.
+
+=================================================
+
+Per la modifica del file ".json" si consiglia di utilizzare Visual Studio Code.
